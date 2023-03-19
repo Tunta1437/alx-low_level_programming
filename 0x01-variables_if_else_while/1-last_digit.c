@@ -8,7 +8,7 @@
  * main - prints a text according number
  * return: Always (success)
  *
- */
+*/
 int main(void)
 srand(time(0));
 n = rand() - RAND_MAX / 2;
