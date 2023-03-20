@@ -9,14 +9,9 @@
  */
 int main(void)
 {
-char low, e, q;
-e = 'e';
-q = 'q';
-for (low = 'a'; low <= 'z'; low++)
-{
-for (low != e && low != q)
-putchar(low);
-}
-putchar('\n');
+int d;
+for (d = 0; d < 9; d++)
+printf(d);
+printf("\n");
 return (0);
 }

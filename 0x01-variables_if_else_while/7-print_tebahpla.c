@@ -1,22 +1,16 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
  * main - entry point
- * return: Always (success)
+ * return: Always 0 (success)
  *
  */
 int main(void)
 {
-char low, e, q;
-e = 'e';
-q = 'q';
-for (low = 'a'; low <= 'z'; low++)
-{
-for (low != e && low != q)
+char low;
+for (low = 'z'; low >= 'a'; low--)
 putchar(low);
-}
 putchar('\n');
 return (0);
 }
