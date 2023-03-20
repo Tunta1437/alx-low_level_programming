@@ -6,7 +6,7 @@
 
 /**
  *main -print if number is positive, zero or negative
- *return; Always(success)
+ *Return: 0
  *
  */
 
