@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line -straight -line
- * @n - no of times
+ * @n: no of times
  * Return: always 0
  */
 void print_line(int n)
