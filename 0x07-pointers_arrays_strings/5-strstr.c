@@ -12,11 +12,11 @@ char *_strstr(char *haystack, char *needle)
 {
 int index;
 
-while (*s)
+while (s)
 {
 for (index = 0; accept[index]; index++)
 {
-if (*s == accpet[index])
+if (s == accept[index])
 return (s);
 }
 s++;
