@@ -1,25 +1,26 @@
 #include "main.h"
 
-/*
- *_strstr - searches a string for any of a set of bytes
- *@s: the string to be searched
- *@accept: the set of bytes to be searched for
- *
- *Return: if a set is matched - a pointer to the matched byte
- *If no set matched - NULL
+/**
+ * _strstr - Entry point
+ * @haystack: input
+ * @needle: input
+ * Return: Always 0 (Success)
  */
 char *_strstr(char *haystack, char *needle)
 {
-int index;
+for (; *haystack != '\0'; haystack++)
+{
+char *l = haystack;
+char *p = needle;
 
-while (s)
+while (*l == *p && *p != '\0')
 {
-for (index = 0; accept[index]; index++)
-{
-if (s == accept[index])
-return (s);
+l++;
+p++;
 }
-s++;
+
+if (*p == '\0')
+return (haystack);
 }
-return ('\0');
+return (0);
 }
