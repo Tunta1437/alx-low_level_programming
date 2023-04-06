@@ -6,7 +6,7 @@
  *@n: number of bytes to be changed
  *@*s: starting address of memory to be filled
  *
- * Return : changed array with new value for n bytes
+ * Return: changed array with new value for n bytes
  */
 
 char *_memset(char *s, char b, unsigned int n)
